@@ -13,6 +13,10 @@ function isValidPassword(password) {
         return false;
     }
 
+    if (/ipl/i.test(password)) {
+        return false;
+    }
+
     return true;
 }
 
