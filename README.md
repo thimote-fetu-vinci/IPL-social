@@ -11,3 +11,15 @@
 
 ## Tests commands
 -   `npm test` or `npm run test` 
+
+## Utilisation Example
+-   To check the strength of a password, you can use the `isValidPassword` function from the `passwordChecker.js` file. Here is an example:
+
+```javascript
+const { isValidPassword } = require('./functions/passwordChecker');
+
+const password = 'YourPassword123!';
+const isValid = isValidPassword(password);
+
+console.log(`Is the password valid? ${isValid}`);
+```
