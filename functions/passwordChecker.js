@@ -9,6 +9,10 @@ function isValidPassword(password) {
         return false;
     }
 
+    if (!/\d/.test(password)) {
+        return false;
+    }
+
     return true;
 }
 
