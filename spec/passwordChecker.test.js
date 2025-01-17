@@ -48,4 +48,12 @@ describe("Password Checker", function () {
 
         expect(result).toBe(false);
     });
+
+    it("should return true if the password does not contain the string 'IPL' in any case", function () {
+        const password = "&hfv15A#";
+
+        const result = isValidPassword(password);
+
+        expect(result).toBe(true);
+    });
 });
