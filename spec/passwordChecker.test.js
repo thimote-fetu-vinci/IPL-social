@@ -8,4 +8,12 @@ describe("Password Checker", function () {
         
         expect(result).toBe(true);
     });
+
+    it("should return false if the password does not contain at least 8 characters", function () {
+        const password = "123";
+
+        const result = isValidPassword(password);
+
+        expect(result).toBe(false);
+    });
 });
