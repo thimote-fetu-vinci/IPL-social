@@ -40,4 +40,12 @@ describe("Password Checker", function () {
 
         expect(result).toBe(true);
     });
+
+    it("should return false if the password does not contain at least a number", function () {
+        const password = "abcdefgh";
+
+        const result = isValidPassword(password);
+
+        expect(result).toBe(false);
+    });
 });
