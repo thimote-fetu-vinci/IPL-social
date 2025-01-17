@@ -1,0 +1,2 @@
+describe("Password Checker", function() {
+});

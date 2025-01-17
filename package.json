@@ -1,0 +1,23 @@
+{
+  "name": "ipl-social",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/thimote-fetu-vinci/IPL-social#readme",
+  "bugs": {
+    "url": "https://github.com/thimote-fetu-vinci/IPL-social/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thimote-fetu-vinci/IPL-social.git"
+  },
+  "license": "ISC",
+  "author": "Fétu Thimoté",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "dependencies": {
+    "jasmine": "^5.5.0"
+  }
+}
