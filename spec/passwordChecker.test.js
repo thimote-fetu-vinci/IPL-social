@@ -5,7 +5,7 @@ describe("Password Checker", function () {
         const password = "&hfv15A#";
 
         const result = isValidPassword(password);
-        
+
         expect(result).toBe(true);
     });
 
@@ -15,5 +15,13 @@ describe("Password Checker", function () {
         const result = isValidPassword(password);
 
         expect(result).toBe(false);
+    });
+
+    it("should return true if the password contains at least one special character", function () {
+        const password = "&hfv15A#";
+
+        const result = isValidPassword(password);
+
+        expect(result).toBe(true);
     });
 });
